@@ -1,0 +1,201 @@
+
+#header{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 2fr;
+}
+
+#header-left{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+#header-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+
+#header-right #nav ul{
+    display: grid;
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 600px;
+
+}
+
+#component-left{
+    display: flex;
+    flex-direction: column;
+}
+#component-left-child1{
+    flex-grow: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+#component-left-child2{
+    flex-grow: 1;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+#component-left-child3{
+    flex-grow: 1;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+#component-left-child1 span{
+    display: grid;
+    align-items: center;
+}
+
+li{
+    flex: 1;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;  
+}
+
+#component-center{
+    display: flex;
+    flex-direction: column;
+}
+
+#component-right{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#component-right-child1{
+    flex-grow: 1;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+#component-right-child2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 1;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#component-right-child2 span{
+    display: grid;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+#component-right-child3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 1;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#component-right-child3 span{
+    display: grid;
+    align-items: center;
+    
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding-bottom: 20px;
+}
+  
+footer #footer {
+    height: 20px;
+  
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+footer #footer ul {
+    float: left;
+    flex: 1;
+    
+}
+  footer #footer li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+    border-right: 2px black solid;
+    
+}
+  
+  
