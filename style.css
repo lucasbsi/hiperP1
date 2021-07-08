@@ -214,6 +214,8 @@ nav>ul>li{
 #component-center{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    
 }
 /* ------------ CENTER 1-------------------------- */
 #component-center-1{
@@ -252,7 +254,7 @@ nav>ul>li{
 }
 /* ------------ CENTER 2-------------------------- */
 #component-center-2{
-    flex-grow: 2;
+    flex-grow: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: gray;
